@@ -1,0 +1,42 @@
+body{margin: 0px;
+ padding: 0px;
+ text-align: center;
+
+}
+
+h1 { 
+    margin-top: 0px;
+} 
+
+.container{ background-color: black;
+position: relative;
+width: 600px;
+height: 600px;
+}
+
+.top-container { 
+    background-color:skyblue;
+    border:solid 0px;
+    width: 200px;
+    height: 200px;
+    position: absolute ;
+    left: 400px;
+right: 0px;
+    
+    
+}
+.middle-container { 
+    background-color:brown;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 200px;
+    top:0px;
+}
+.bottom-container { 
+    background-color:#9e66bf;
+    width: 200px;
+    height: 200px;   
+    position: fixed;
+    top: 0px;
+}
